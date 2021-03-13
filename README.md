@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+# docker run -p 3000:3000 -v /app/node_modules -v Get-Location:/app nsiddhesh/frontend
+
+# here $(pwd) current working dir map to :/app inside container just -v /app/node_modules there is no colon so it wont map just use the container app/node_modules
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
